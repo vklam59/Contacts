@@ -1,4 +1,4 @@
-.content-table{
+table{
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
@@ -7,17 +7,17 @@
     overflow: hidden;
   }
 
-  .content-table thead tr{
+ tr{
     background-color: #009879;
     color: #ffffff;
     text-align: left;
   }
 
-  .content-table th,
-  .content-table td {
+  th,
+  td {
     padding: 12px 15px;
   }
 
-  .content-table tbody tr:nth-of-type(even){
+  body tr:nth-of-type(even){
     background-color: #f3f3f3;  
   }
